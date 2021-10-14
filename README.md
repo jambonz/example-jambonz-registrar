@@ -1,6 +1,6 @@
 # example-jambonz-registrar
 
-This basic webhook application was created with the [create jambonz command](https://www.npmjs.com/package/create-jambonz-app) for use by [TelecomsXchange](https://telecomsxchange.com/) to enable the clients with SIP devices to register and access their SIP trunks on TCXC.
+This simple webhook application was created with the [create jambonz command](https://www.npmjs.com/package/create-jambonz-app) for use by [TelecomsXchange](https://telecomsxchange.com/) to enable the clients with SIP devices to register and access their SIP trunks on TCXC.
 
 ## Configuration
 - SIP device registration and routing data is kept in [data/credentials.json](data/credentials.json) file.
