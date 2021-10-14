@@ -16,13 +16,13 @@ pm2 start ecosystem.config.js
 
 Based on the options that you have chosen, this application exposes the following HTTP endpoints:
 
-### /auth
+### [/auth](lib/routes/endpoints/auth.js)
 Authentication webhook for sip devices.
 
 ### [/dial](lib/routes/endpoints/dial.js)
 Routes calls from registered sip devices to TCXC SIP trunks
 
-### /call-status
+### [/call-status](lib/routes/endpoints/call-status.js)
 Call events
 
 
