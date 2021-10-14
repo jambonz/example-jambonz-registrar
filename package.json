@@ -1,0 +1,26 @@
+{
+  "name": "example-jambonz-registrar",
+  "version": "0.0.1",
+  "description": "sample jambonz webhook application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client": "^0.2.9",
+    "aws-sdk": "^2.1001.0",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "pino": "^6.13.3",
+    "s3-upload-stream": "^1.0.7",
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
