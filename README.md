@@ -19,7 +19,7 @@ Based on the options that you have chosen, this application exposes the followin
 ### /auth
 Authentication webhook for sip devices.
 
-### /dial
+### [/dial](lib/routes/endpoints/dial.js)
 Routes calls from registered sip devices to TCXC SIP trunks
 
 ### /call-status
